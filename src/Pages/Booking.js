@@ -22,7 +22,7 @@ export default function Booking() {
     // setResult('Sending....');
     const formData = new FormData(event.target);
 
-    formData.append('access_key', '86f65b27-f92b-47d4-b6cc-f5ef99d08646');
+    formData.append('access_key', '8c690bfc-1701-4079-b82c-0a5a6f2b487d');
 
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
@@ -126,9 +126,15 @@ export default function Booking() {
               <option value='manicure'>Manicure</option>
               <option value='pedicure'>Pedicure</option>
               <option value='nailArt'>Nail Art</option>
+              <option value='nailArt'>Nail Extention</option>
+              <option value='nailArt'>Nail Enhancement</option>
+              <option value='nailArt'>Foot/Hand Massage For Men</option>
+              <option value='nailArt'>Foot/Hand Massage For Women</option>
+              <option value='nailArt'>Soak Off</option>
+              
             </Form.Control>
           </Form.Group>
-          <Button variant='primary' type='submit'>
+          <Button variant='primary' type='submit' style={{marginBottom:20}}>
             Book Appointment
           </Button>
         </Form>

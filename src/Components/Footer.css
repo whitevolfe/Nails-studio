@@ -1,0 +1,97 @@
+   /* Footer.css */
+   .footer {
+    background-color: #1a202c;; /* Light background color */
+    padding: 40px 20px; /* Padding for top and bottom */
+    text-align: left; /* Align text to the left */
+    border-top: 1px solid #eaeaea; /* Top border */
+  }
+
+  .footer-content {
+    display: flex; 
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Wrap sections on smaller screens */
+  }
+
+  /* Added media query for mobile view */
+  @media (max-width: 768px) {
+    .footer-content {
+      justify-content: center; /* Center contents on mobile */
+      text-align: center; /* Center text alignment */
+    }
+  }
+
+  .footer-bg {
+    background-color: #1a202c;
+  }
+
+  
+
+  .footer-section {
+    flex: 1; 
+    margin: 10px; 
+    min-width: 200px; 
+  }
+
+  .footer h2, .footer h3 {
+    font-family: 'Poppins', sans-serif; /* Heading font */
+    font-weight: 600; /* Bold weight */
+    color: #ffffff;
+  }
+
+  .footer p {
+    font-family: 'Roboto', sans-serif; /* Body font */
+    margin: 5px 0; /* Space below paragraph */
+  }
+
+  .footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+  }
+
+  .footer-section ul li {
+    margin: 5px 0; /* Space between list items */
+  }
+
+  .newsletter input {
+    padding: 10px; /* Padding for input */
+    margin-right: 5px; /* Space between input and button */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 5px; /* Rounded corners */
+  }
+
+  .newsletter button {
+    padding: 10px 15px; /* Padding for button */
+    background-color: #f027bd; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+  }
+
+  .newsletter button:hover {
+    background-color: #d020a8; /* Darker shade on hover */
+  }
+
+  .footer-bottom {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Space above copyright text */
+    font-family: 'Roboto', sans-serif; /* Body font */
+    font-size: 14px; /* Font size for copyright */
+    color: #6c757d; /* Gray color for copyright text */
+  }
+
+  .social-media-icons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the icons */
+    gap: 15px; /* Space between icons */
+    margin-bottom: 10px; /* Space below icons */
+  }
+
+  .social-icon {
+    text-decoration: none; /* Remove underline from links */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .social-icon:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
