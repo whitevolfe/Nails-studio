@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     
     <footer className='footer-bg'>
-      <div className="footer-content" style={{ color: 'white',display:"flex",marginTop:30,marginLeft:50}}>
+      <div className="footer-content" style={{ color: 'white',display:"flex",marginTop:30,marginLeft:20}}>
         <div className="footer-section about">
           <h2>Nails By MI</h2>
           <p>Your one-stop destination for luxurious nail care. We offer a variety of services to pamper your nails and enhance your beauty.</p>
@@ -26,9 +26,9 @@ const Footer = () => {
 
         <div className="footer-section contact">
           <h3>Contact Us</h3>
-          <p>Email: info@nailsbymi.com</p>
-          <p>Phone: +1 (555) 555-5555</p>
-          <p>Address: 123 Nail Studio Ave, City, State, ZIP</p>
+          <p>Email: nailsbymi6@gmail.com</p>
+          <p>Phone: +94-77-955-6605</p>
+          <p>Address: 55 Vidyalayam Rd, Trincomalee</p>
         </div>
 
         <div className="footer-section newsletter">
@@ -40,10 +40,10 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="social-media-icons">
-          <a href="https://www.facebook.com/your-page" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://www.facebook.com/profile.php?id=100084894760221" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaFacebook size={30} color="#3b5998" />
           </a>
-          <a href="https://www.instagram.com/your-profile" target="_blank" rel="noopener noreferrer" className="social-icon">
+          <a href="https://www.instagram.com/nails_by_mi6?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaInstagram size={30} color="#E1306C" />
           </a>
           

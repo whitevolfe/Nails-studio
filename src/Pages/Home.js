@@ -4,6 +4,8 @@ import nails3 from '../Images/nails3.jpeg'
 import nails2 from '../Images/nails2.jpeg'
 import nails5 from '../Images/nails5.jpeg'
 import testimonialImage from '../Images/nails3.jpeg'
+import heroVideo from '../vedios/nails-hero.mp4';
+
 
 
 export default function Home() {
@@ -21,10 +23,14 @@ export default function Home() {
           </Button>
         </Col>
         <Col md={6}>
-          <img
-            src={nails3}
-            alt="Luxe Nails Salon"
+        <video
             className="img-fluid rounded shadow-lg"
+            src={heroVideo}
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ width: '100%',height:"200%"}}
           />
         </Col>
       </Row>

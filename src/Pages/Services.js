@@ -46,7 +46,7 @@ const services = [
   },
 
   { 
-    name: 'Nail Extention', 
+    name: 'Nail Extension', 
     description: 'A traditional padicure with your choice of polish.',
     subServices: [
       { name: 'Acrylic nails + gel polish' },
@@ -54,10 +54,10 @@ const services = [
       { name: 'Gel nail + normal polish' },
       { name: 'Gel colour soak off'},
       { name: 'soak off dipping'},
-      { name: 'Nail extention soak'},
+      { name: 'Nail extension soak'},
       { name: 'Builder gel + nail repair'},
       { name: 'Nail form'},
-      { name: 'Gelly tip gel on extention'},
+      { name: 'Gelly tip gel on extension'},
     ]
   },
 
@@ -82,8 +82,8 @@ const services = [
     subServices: [
       { name: 'Manicure' },
       { name: 'Pedicure' },
-      { name: 'Nail extention' },
-      { name: 'Toe nail extention'},
+      { name: 'Nail extension' },
+      { name: 'Toe nail extension'},
       { name: 'Bridal offer'},
     ]
   },
@@ -157,7 +157,7 @@ export default function Services() {
               <Card.Body >
                 <Card.Title className="service-title">{service.name}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{service.price}</Card.Subtitle>
-                <Card.Text>{service.description}</Card.Text>
+                <Card.Text></Card.Text>
                 {service.subServices && service.subServices.map((subService) => (
                   <Card key={subService.name} className="mt-2">
                     <Card.Body className="sub-service-card">

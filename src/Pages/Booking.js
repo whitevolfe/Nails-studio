@@ -126,7 +126,7 @@ export default function Booking() {
               <option value='manicure'>Manicure</option>
               <option value='pedicure'>Pedicure</option>
               <option value='nailArt'>Nail Art</option>
-              <option value='nailArt'>Nail Extention</option>
+              <option value='nailArt'>Nail Extension</option>
               <option value='nailArt'>Nail Enhancement</option>
               <option value='nailArt'>Foot/Hand Massage For Men</option>
               <option value='nailArt'>Foot/Hand Massage For Women</option>
